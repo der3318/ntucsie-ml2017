@@ -1,2 +1,2 @@
-javac -d bin -sourcepath src -encoding utf8 src/Main.java
-java -Dfile.encoding=UTF-8 -cp bin Main 2 $1
+javac -d bin -sourcepath src -encoding utf8 src/launch/Main.java
+java -Dfile.encoding=UTF-8 -cp bin launch.Main 2 $1
