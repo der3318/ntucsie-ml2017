@@ -10,7 +10,7 @@ with open( sys.argv[1] ) as f: # matrixA.txt
 with open( sys.argv[2] ) as f: # matrixB.txt
     for line in f:
         mB.append( list( map( int, line.split(",") ) ) )
-ans = numpy.dot( numpy.array(mA), numpy.array(mB) ).tolist()[0]
+ans = numpy.dot( numpy.array(mA), numpy.array(mB) ).reshape(-1).tolist()
 for element in sorted(ans):
     print(element)
 
