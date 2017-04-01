@@ -24,3 +24,12 @@ B03902015
 * Time: 7 min(s)
 
 
+###### Homework 2
+* Directory: `hw2/`
+* Run
+	* `hw2$ ./hw2_logistic.sh [raw_training] [raw_testing] [training_file] [traning_ans] [testing_file] [output_file]`
+	* `hw2$ ./hw2_generative.sh [raw_training] [raw_testing] [training_file] [traning_ans] [testing_file] [output_file]`
+	* `hw2$ ./hw2_best.sh [raw_training] [raw_testing] [training_file] [traning_ans] [testing_file] [output_file]`
+* Time: 7 min(s) / 1 sec(s) / 1 sec(s)
+
+
