@@ -7,6 +7,7 @@ B03902015
 * Python3
 * numpy
 * PIL Image Library
+* Tensorflow and Keras
 
 
 ###### Homework 0
@@ -32,4 +33,11 @@ B03902015
 	* `hw2$ ./hw2_best.sh [raw_training] [raw_testing] [training_file] [traning_ans] [testing_file] [output_file]`
 * Time: 7 min(s) / 1 sec(s) / 1 sec(s)
 
+
+###### Homework 3
+* Directory: `hw3/`
+* Run
+	* `hw3$ ./hw3_train.sh [training_file]`
+	* `hw3$ ./hw3_test.sh [testing_file] [output_file]`
+* Time: several hours / 10 min(s)
 
