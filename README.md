@@ -41,3 +41,11 @@ B03902015
 	* `hw3$ ./hw3_test.sh [testing_file] [output_file]`
 * Time: several hours / 10 min(s)
 
+
+###### Homework 4
+* Directory: `hw4/`
+* Run
+	* `hw4$ ./dim.sh [npz_file] [output_file]`
+* Time: 5 sec(s)
+
+
