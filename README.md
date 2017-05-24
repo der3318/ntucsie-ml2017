@@ -48,4 +48,10 @@ B03902015
 	* `hw4$ ./dim.sh [npz_file] [output_file]`
 * Time: 5 sec(s)
 
+###### Homework 5
+* Directory: `hw5/`
+* Run
+	* `hw5$ ./hw5_rnn.sh [testing_file] [output_file]`
+	* `hw5$ ./hw5_best.sh [testing_file] [output_file]`
+* Time: 1 min(s)
 
