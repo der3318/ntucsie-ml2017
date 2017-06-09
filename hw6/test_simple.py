@@ -32,6 +32,7 @@ print("movieMat.shape |", movieMat.shape)
 
 # read training data
 print("\x1b[0;31;40m<I/O> Reading Testing Data\x1b[0m")
+testID = []
 testData = []
 with open(testPath) as fin:
     for lineNum, line in enumerate(fin):
@@ -39,6 +40,7 @@ with open(testPath) as fin:
             print("\rProcessing - Line " + str(lineNum + 1) + "/" + str(num["test"] + 1), end = "")
         if lineNum == 0:    continue
         lineData = list( map( int, line.rstrip().split(",") ) )
+        testID.append(lineData[0])
         testData.append([ lineData[1], lineData[2] ])
 testData = np.array(testData)
 print("\ntestData.shape testData[0, :] |", testData.shape, testData[0, :])
@@ -65,5 +67,5 @@ with open(outputPath, "w") as fout:
         value = predictions[i, 0]
         if value > 5:   value = 5
         if value < 1:   value = 1
-        fout.write(str(i + 1) + "," + str(value) + "\n")
+        fout.write(str(testID[i]) + "," + str(value) + "\n")
 
